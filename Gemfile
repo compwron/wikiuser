@@ -1,18 +1,7 @@
 source "https://rubygems.org"
 
 gem 'wikipedia-vandalism_detection'
-
-# gem "hotwater", '0.1.0', require: 'hotwater'
-# gem "activerecord", "~>4"
-# gem "rack", "~>1"
-# gem "ruby-band", git: "git@github.com:paulgoetze/ruby-band.git" #, ref: "5dc401d734e7fd6d43eab15e4c7c982dbb485722"
-# gem "weka", git: "git@github.com:paulgoetze/weka-jruby.git" #, ref: "281ff086a78a2718f2ac0be38186954b7bfb415a"
-# gem "pry"
-
-
-# gem "ruby-band", "~> 0.1"
 gem "ruby-band", git: "git@github.com:paulgoetze/ruby-band.git" #, ref: "5dc401d734e7fd6d43eab15e4c7c982dbb485722"
-# gem "nokogiri", "~>1.6"
 gem "activesupport", "~>3"
 gem "i18n", "0.6.1"
 gem "multi_json", "1.8.2"
@@ -29,8 +18,6 @@ gem "faraday", "0.8.8"
 gem "git", "1.2.6"
 gem "hashie", "2.0.5"
 gem 'nokogiri', '~> 1.5', '>= 1.5.10'
-# gem "rack", "1.6.0", path: "vendor/gems/rack-1.6.0"
-# gem "rubylet-rack"
 gem "httpauth", "0.2.0"
 gem "jwt", "0.1.8"
 gem "rack", "1.5.2"
