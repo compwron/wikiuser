@@ -29,5 +29,6 @@ gem "faraday", "0.8.8"
 gem "git", "1.2.6"
 gem "hashie", "2.0.5"
 gem 'nokogiri', '~> 1.5', '>= 1.5.10'
-gem "rack" "1.6.0", path: "vendor/gems/rack-1.6.0"
+gem "rack", "1.6.0", path: "vendor/gems/rack-1.6.0"
 # gem "rubylet-rack"
+gem "httpauth", "0.2.0"
