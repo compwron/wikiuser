@@ -29,6 +29,14 @@ gem "faraday", "0.8.8"
 gem "git", "1.2.6"
 gem "hashie", "2.0.5"
 gem 'nokogiri', '~> 1.5', '>= 1.5.10'
-gem "rack", "1.6.0", path: "vendor/gems/rack-1.6.0"
+# gem "rack", "1.6.0", path: "vendor/gems/rack-1.6.0"
 # gem "rubylet-rack"
 gem "httpauth", "0.2.0"
+gem "jwt", "0.1.8"
+gem "rack", "1.5.2"
+gem "oauth2", "0.9.2"
+gem "highline", "1.6.19"
+gem 'thor', '0.18.1'
+gem 'rdoc', '3.12.2'
+gem 'jeweler', '1.8.7'
+gem "rspec-core", "2.14.5"
