@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'wikipedia-vandalism_detection'
-gem "ruby-band", git: "git@github.com:paulgoetze/ruby-band.git" #, ref: "5dc401d734e7fd6d43eab15e4c7c982dbb485722"
+gem "ruby-band", git: "git@github.com:paulgoetze/ruby-band.git" , ref: "5dc401d734e7fd6d43eab15e4c7c982dbb485722"
 gem "activesupport", "~>3"
 gem "i18n", "0.6.1"
 gem "multi_json", "1.8.2"
