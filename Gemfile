@@ -40,3 +40,8 @@ gem 'thor', '0.18.1'
 gem 'rdoc', '3.12.2'
 gem 'jeweler', '1.8.7'
 gem "rspec-core", "2.14.5"
+gem "rspec-expectations", "2.14.2"
+gem "rspec-mocks", "2.14.3"
+gem "shoulda-context", "1.1.5"
+gem "shoulda-matchers", "2.3.0"
+gem 'simplecov-html', '0.7.1'
