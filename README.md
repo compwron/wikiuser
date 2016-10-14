@@ -8,4 +8,4 @@ Trying to build and use https://github.com/webis-de/wikipedia-vandalism-detectio
 ### current error
 
 
-NoMethodError: undefined method `build_classes' for Weka::Classifiers::Meta:Module
+LoadError: no such file to load -- weka/filters/unsupervised/attribute/MergeManyValues
