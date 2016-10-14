@@ -1,18 +1,9 @@
 source "https://rubygems.org"
 
+# todo next: try a newer version than the published gem
 gem 'wikipedia-vandalism_detection'
-# gem "ruby-band", '0.1.13' #git: "git@github.com:paulgoetze/ruby-band.git"
-# gem "activesupport", "~>3"
-# gem 'weka', '0.1.0'
 
-#  next try AR 3, weka 2
-
-# AR4 doesn't work because
-# rack-2.0.1 requires ruby version >= 2.2.2, which is incompatible with the
-# current version, ruby 1.9.3p551 (jruby 1.7.26)
-
-
-gem 'i18n', '0.7.0'
+gem 'i18n', '0.6.1'
 gem 'rake', '10.4.2'
 gem 'minitest', '5.7.0'
 gem 'thread_safe', '0.3.5'
@@ -20,7 +11,6 @@ gem 'addressable', '2.3.8'
 gem 'json', '1.8.3'
 gem 'atomic', '1.1.99'
 gem 'builder', '3.2.2'
-# gem 'bundler', '1.7.6'
 gem 'color', '1.7.1'
 gem 'multi_json', '1.11.2'
 gem 'diff-lcs', '1.2.5'
