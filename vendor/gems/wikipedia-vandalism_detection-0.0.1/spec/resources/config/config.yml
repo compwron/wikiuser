@@ -1,0 +1,35 @@
+corpora:
+  base_directory: ../../../../spec/resources/corpora
+
+  training:
+    base_directory: training
+    annotations_file: annotations.csv
+    edits_file: edits.csv
+    revisions_directory: revisions
+
+  test:
+    base_directory: test
+    edits_file: edits.csv
+    revisions_directory: revisions
+    ground_truth_file: ground-truth.txt
+
+output:
+  base_directory: ../../../../spec/resources/build
+  training:
+    index_file: training_index.yml
+    arff_file: training.arff
+  test:
+    index_file: test_index.yml
+    arff_file: test.arff
+    classification_file: classification.txt
+
+features:
+  - anonymity
+  - character sequence
+  - comment length
+
+classifier:
+  type: Trees::RandomForest
+  options: -I 10
+  cross-validation-fold: 2
+  training-data-options: unbalanced
